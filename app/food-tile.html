@@ -5,11 +5,13 @@
         </div>
         <div class="panel-body">
             <h5>Calories Count: {{food.calories}}</h5>
-            <hr> {{food.details}}
-        </div>
-        <button (click)="food.editForm = !food.editForm" class="btn btn-info">{{food.editForm ? 'Hide Edit Form' : 'Show Edit Form'}}</button>
-        <div class="well" *ngIf="food.editForm">
-          <food-edit [food] = "food" (removeSend) = "removeFood($event)"></food-edit>
+            <hr>{{food.details}}
+            <br><br>
+            <button (click)="food.editForm = !food.editForm" class="btn btn-info">{{food.editForm ? 'Hide Edit Form' : 'Show Edit Form'}}</button>
+            <br><br>
+            <div class="well" *ngIf="food.editForm">
+              <food-edit [food] = "food" (removeSend) = "removeFood($event)"></food-edit>
+            </div>
         </div>
     </div>
 </div>

@@ -9,7 +9,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 export class FoodEditComponent {
   @Input() food: Food;
   @Output() removeSend = new EventEmitter();
-  remoteFood(food)
+  removeFood(food)
   {
     this.removeSend.emit(food);
   }
