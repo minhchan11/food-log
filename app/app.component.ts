@@ -1,7 +1,13 @@
 import { Component } from '@angular/core';
 import { Food } from './model';
+import { FOODS } from './all-food';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app/app.component.html'
 })
+
+export class AppComponent {
+  foods = FOODS;
+}
