@@ -6,11 +6,11 @@
         <h4>Add a new entry to keep track of your calories intake</h4>
         <div class="form-group">
             <label>Name:</label>
-            <input type="text" class="form-control" #newName>
+            <input type="text" class="form-control" #newName id="name">
             <label>Details:</label>
-            <input type="text" class="form-control" #newDetails>
+            <input type="text" class="form-control" #newDetails id="detail">
             <label>Calories Count:</label>
-            <input type="number" class="form-control" #newCalories>
+            <input type="number" class="form-control" #newCalories id="calories">
         </div>
         <button (click)="submit(newName.value, newDetails.value, newCalories.value)" class="btn btn-block btn-info">Submit</button>
     </div>

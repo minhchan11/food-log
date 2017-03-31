@@ -13,6 +13,6 @@ export class FoodNewComponent {
     submit(name: string, details: string, calories: number) {
         var newFood = new Food(name, details, calories);
         this.submitSend.emit(newFood);
-        $("input").val('');
+        $("#name, #detail, #calories").val('');
     }
 }
