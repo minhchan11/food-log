@@ -11,14 +11,14 @@ export class CaloriePipe implements PipeTransform {
         var output: Food[] = [];
         if (calorieCount === "high") {
             for (let i = 0; i < input.length; i++) {
-                if (input[i].calories > 200) {
+                if (input[i].calories > 500) {
                     output.push(input[i]);
                 };
             }
             return output;
         } else if (calorieCount === "low") {
             for (let i = 0; i < input.length; i++) {
-                if (input[i].calories < 200) {
+                if (input[i].calories <= 500) {
                     output.push(input[i]);
                 };
             }
@@ -27,5 +27,4 @@ export class CaloriePipe implements PipeTransform {
             return input;
         }
     }
-}
 }

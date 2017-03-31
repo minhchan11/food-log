@@ -1,11 +1,34 @@
-<div *ngFor="let food of foods">
+<div class="well">  
+  <h5>Filter By:</h5>
+  <form (change)="onChange($event.target.value)" class="form-group">
+    <div class="radio">
+      <label>
+        <input type="radio" name="calorie" value="all" checked>All Entries
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="calorie" value="high">High Calories Entries (More than 500)
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="calorie" value="low">Low Calories Entries (Less than 500)
+      </label>
+    </div>
+  </form>
+</div>
+<div *ngFor="let food of foods | calorie: filterByCalorie">
     <div class="panel panel-success">
         <div class="panel-heading">
             <h4>{{food.name}}</h4>
         </div>
         <div class="panel-body">
-            <h5>Calories Count: {{food.calories}}</h5>
-            <hr>{{food.details}}
+            <h4>Calories Count: {{food.calories}}</h4>
+            <hr>
+            <blockquote>
+                {{food.details}}
+            </blockquote>
             <br><br>
             <button (click)="food.editForm = !food.editForm" class="btn btn-info">{{food.editForm ? 'Hide Edit Form' : 'Show Edit Form'}}</button>
             <br><br>

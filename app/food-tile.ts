@@ -13,4 +13,9 @@ export class FoodTileComponent {
     removeFood(food) {
         this.removeSend.emit(food);
     }
+
+    filterByCalorie: string = "all";
+    onChange(option){
+      this.filterByCalorie = option;
+    }
 }
