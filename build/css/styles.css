@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Varela+Round");
+body {
+  font-family: 'Varela Round', sans-serif; }
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 8em;
+  text-align: center;
+  height: 30%;
+  background-image: url(/resources/img/banner.jpg);
+  color: rgba(255, 202, 112, 0.9);
+  padding-top: 10%; }
+
+#calorie {
+  background-color: #ffc05b;
+  padding: 2%; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiQGltcG9ydCB1cmwoJ2h0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzP2ZhbWlseT1QYWNpZmljb3xWYXJlbGErUm91bmQnKTtcblxuYm9keSB7XG4gIGZvbnQtZmFtaWx5OiAnVmFyZWxhIFJvdW5kJywgc2Fucy1zZXJpZjtcbn1cblxuLnRpdGxlIHtcbiAgZm9udC1mYW1pbHk6ICdQYWNpZmljbycsIGN1cnNpdmU7XG4gIGZvbnQtc2l6ZTogOGVtO1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGhlaWdodDogMzAlO1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL3Jlc291cmNlcy9pbWcvYmFubmVyLmpwZyk7XG4gIGNvbG9yOiByZ2JhKDI1NSwgMjAyLCAxMTIsMC45KTtcbiAgcGFkZGluZy10b3A6IDEwJTtcbn1cblxuI2NhbG9yaWUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjU1LCAxOTIsIDkxKTtcbiAgcGFkZGluZzogMiU7XG59XG4iXSwibWFwcGluZ3MiOiJBQUFBLE9BQU8sQ0FBQyxvRUFBSTtBQUVaLEFBQUEsSUFBSSxDQUFDO0VBQ0gsV0FBVyxFQUFFLDBCQUEyQixHQUN6Qzs7QUFFRCxBQUFBLE1BQU0sQ0FBQztFQUNMLFdBQVcsRUFBRSxtQkFBb0I7RUFDakMsU0FBUyxFQUFFLEdBQUk7RUFDZixVQUFVLEVBQUUsTUFBTztFQUNuQixNQUFNLEVBQUUsR0FBSTtFQUNaLGdCQUFnQixFQUErQiw4QkFBQztFQUNoRCxLQUFLLEVBQUUsd0JBQUk7RUFDWCxXQUFXLEVBQUUsR0FBSSxHQUNsQjs7QUFFRCxBQUFBLFFBQVEsQ0FBQztFQUNQLGdCQUFnQixFQUFFLE9BQUc7RUFDckIsT0FBTyxFQUFFLEVBQUcsR0FDYiIsIm5hbWVzIjpbXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */
