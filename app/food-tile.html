@@ -9,7 +9,7 @@
         </div>
         <button (click)="food.editForm = !food.editForm" class="btn btn-info">{{food.editForm ? 'Hide Edit Form' : 'Show Edit Form'}}</button>
         <div class="well" *ngIf="food.editForm">
-          <edit-food [food] = "food" (removeSend) = "removeFood($event)"></edit-food>
+          <food-edit [food] = "food" (removeSend) = "removeFood($event)"></food-edit>
         </div>
     </div>
 </div>

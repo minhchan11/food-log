@@ -9,4 +9,9 @@ import { FOODS } from './all-food';
 
 export class FoodTileComponent{
   @Input() foods: Food[];
+  @Output() removeSend = new EventEmitter();
+  removeFood(food)
+  {
+    this.removeSend.emit(food);
+  }
 }

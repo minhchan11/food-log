@@ -10,4 +10,8 @@ import { FOODS } from './all-food';
 
 export class AppComponent {
     foods = FOODS;
+
+    removeFood(food) {
+      FOODS.splice(FOODS.indexOf(food),1);
+    }
 }
