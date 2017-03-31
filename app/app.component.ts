@@ -4,10 +4,10 @@ import { FOODS } from './all-food';
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app/app.component.html'
+    selector: 'app-root',
+    templateUrl: './app/app.component.html'
 })
 
 export class AppComponent {
-  foods = FOODS;
+    foods = FOODS;
 }
