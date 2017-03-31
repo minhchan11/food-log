@@ -7,5 +7,9 @@
             <h5>Calories Count: {{food.calories}}</h5>
             <hr> {{food.details}}
         </div>
+        <button (click)="food.editForm = !food.editForm" class="btn btn-info">{{food.editForm ? 'Hide Edit Form' : 'Show Edit Form'}}</button>
+        <div class="well" *ngIf="food.editForm">
+          <edit-food [food] = "food" (removeSend) = "removeFood($event)"></edit-food>
+        </div>
     </div>
 </div>
