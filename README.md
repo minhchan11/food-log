@@ -1,4 +1,4 @@
-# Band Tracker Database
+# Food Log
 
 ### Site to track meals
 
