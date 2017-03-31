@@ -6,10 +6,15 @@ body {
 
 .title {
   font-family: 'Pacifico', cursive;
-  font-size: 12em;
+  font-size: 8em;
   text-align: center;
   height: 30%;
   background-image: url(/resources/img/banner.jpg);
   color: rgba(255, 202, 112,0.9);
-  padding-top: 5%;
+  padding-top: 10%;
+}
+
+#calorie {
+  background-color: rgb(255, 192, 91);
+  padding: 2%;
 }
