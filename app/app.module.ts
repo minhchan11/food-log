@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FoodTileComponent } from './food-tile';
+import { FoodEditComponent } from './food-edit';
 
 @NgModule({
     imports: [
@@ -11,7 +12,8 @@ import { FoodTileComponent } from './food-tile';
     ],
     declarations: [
         AppComponent,
-        FoodTileComponent
+        FoodTileComponent,
+        FoodEditComponent
     ],
     bootstrap: [
         AppComponent
