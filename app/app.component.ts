@@ -12,10 +12,10 @@ export class AppComponent {
     foods = FOODS;
 
     removeFood(food) {
-      FOODS.splice(FOODS.indexOf(food),1);
+        FOODS.splice(FOODS.indexOf(food), 1);
     }
 
     submit(food) {
-      FOODS.push(food);
+        FOODS.push(food);
     }
 }
