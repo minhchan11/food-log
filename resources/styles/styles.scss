@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Varela+Round');
+
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
+  font-size: 12em;
+  text-align: center;
+  height: 30%;
+  background-image: url(/resources/img/banner.jpg);
+  color: rgba(255, 202, 112,0.9);
+  padding-top: 5%;
+}
