@@ -14,4 +14,8 @@ export class AppComponent {
     removeFood(food) {
       FOODS.splice(FOODS.indexOf(food),1);
     }
+
+    submit(food) {
+      FOODS.push(food);
+    }
 }
